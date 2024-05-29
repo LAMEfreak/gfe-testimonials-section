@@ -1,21 +1,14 @@
-import thumbnail from "./assets/profile-thumbnail.jpg";
-import thumbnail1 from "./assets/profile-thumbnail_1.jpg";
-import thumbnail2 from "./assets/profile-thumbnail_2.jpg";
-import thumbnail3 from "./assets/profile-thumbnail_3.jpg";
-import thumbnail4 from "./assets/profile-thumbnail_4.jpg";
-import thumbnail5 from "./assets/profile-thumbnail_5.jpg";
-import thumbnail6 from "./assets/profile-thumbnail_6.jpg";
-import thumbnail7 from "./assets/profile-thumbnail_7.jpg";
-import thumbnail8 from "./assets/profile-thumbnail_8.jpg";
+import thumbnail from "../assets/profile-thumbnail.jpg";
+import thumbnail1 from "../assets/profile-thumbnail_1.jpg";
+import thumbnail2 from "../assets/profile-thumbnail_2.jpg";
+import thumbnail3 from "../assets/profile-thumbnail_3.jpg";
+import thumbnail4 from "../assets/profile-thumbnail_4.jpg";
+import thumbnail5 from "../assets/profile-thumbnail_5.jpg";
+import thumbnail6 from "../assets/profile-thumbnail_6.jpg";
+import thumbnail7 from "../assets/profile-thumbnail_7.jpg";
+import thumbnail8 from "../assets/profile-thumbnail_8.jpg";
 
-export interface Testimonial {
-  avatarImg: string;
-  username: string;
-  userHandle: string;
-  cardMessage: string;
-}
-
-export const testimonials: Testimonial[] = [
+export const testimonials1 = [
   {
     avatarImg: thumbnail,
     username: "Sarah Dole",
@@ -37,6 +30,9 @@ export const testimonials: Testimonial[] = [
     cardMessage:
       "I never thought I'd find such stunning abstract images for free! This platform has exceeded my expectations in every way.",
   },
+];
+
+export const testimonials2 = [
   {
     avatarImg: thumbnail3,
     username: "Jake Johnson",
@@ -58,6 +54,9 @@ export const testimonials: Testimonial[] = [
     cardMessage:
       "I'm amazed by the attention to detail in every image on this platform. It's clear that a lot of thought and creativity goes into curating the collection.",
   },
+];
+
+export const testimonials3 = [
   {
     avatarImg: thumbnail6,
     username: "Marcus Thompson",
